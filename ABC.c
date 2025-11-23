@@ -41,7 +41,7 @@ double Rosenbrock(double sol[D]);
 double Griewank(double sol[D]);
 double Rastrigin(double sol[D]);
 
-/* Chọn hàm mục tiêu (có thể đổi thành sphere / Rosenbrock / Griewank) */
+/* Chọn hàm mục tiêu */
 FunctionCallback function = &Rastrigin;
 
 /* Hàm tính fitness */
