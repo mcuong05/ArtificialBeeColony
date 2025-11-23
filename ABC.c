@@ -10,7 +10,7 @@
 #define limit /* Một nguồn thức ăn không cải thiện sau "limit" lần thử sẽ bị bỏ bởi ong thợ */
 #define maxCycle /* Số chu kỳ lặp khi tìm kiếm (điều kiện dừng) */
 
-/* Biến của bài toán cụ thể */
+/* Biến của bài toán */
 #define D /* Số lượng tham số cần tối ưu */
 #define lb /* Giới hạn dưới của tham số */
 #define ub /* Giới hạn trên của tham số */
