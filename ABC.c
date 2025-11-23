@@ -5,15 +5,15 @@
 #include <time.h>
 
 /* Tham số điều khiển của thuật toán ABC */
-#define NP 40 /* Kích thước quần thể (tổng số ong thợ + ong quan sát) */
+#define NP /* Kích thước quần thể (tổng số ong thợ + ong quan sát) */
 #define FoodNumber NP/2 /* Số lượng nguồn thức ăn = một nửa kích thước quần thể */
-#define limit 100  /* Một nguồn thức ăn không cải thiện sau "limit" lần thử sẽ bị bỏ bởi ong thợ */
-#define maxCycle 3000 /* Số chu kỳ lặp khi tìm kiếm (điều kiện dừng) */
+#define limit /* Một nguồn thức ăn không cải thiện sau "limit" lần thử sẽ bị bỏ bởi ong thợ */
+#define maxCycle /* Số chu kỳ lặp khi tìm kiếm (điều kiện dừng) */
 
 /* Biến của bài toán cụ thể */
-#define D 50 /* Số lượng tham số cần tối ưu */
-#define lb -5.12 /* Giới hạn dưới của tham số */
-#define ub 5.12 /* Giới hạn trên của tham số */
+#define D /* Số lượng tham số cần tối ưu */
+#define lb /* Giới hạn dưới của tham số */
+#define ub /* Giới hạn trên của tham số */
 
 /* Số lần chạy để kiểm tra độ ổn định / độ bền vững của thuật toán */
 #define runtime 30
