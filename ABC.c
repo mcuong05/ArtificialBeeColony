@@ -5,9 +5,9 @@
 #include <time.h>
 
 /* Tham số điều khiển của thuật toán ABC */
-#define NP 40 /* Kích thước quần thể (tổng số ong làm việc + ong quan sát) */
+#define NP 40 /* Kích thước quần thể (tổng số ong thợ + ong quan sát) */
 #define FoodNumber NP/2 /* Số lượng nguồn thức ăn = một nửa kích thước quần thể */
-#define limit 100  /* Một nguồn thức ăn không cải thiện sau "limit" lần thử sẽ bị bỏ bởi ong làm việc */
+#define limit 100  /* Một nguồn thức ăn không cải thiện sau "limit" lần thử sẽ bị bỏ bởi ong thợ */
 #define maxCycle 3000 /* Số chu kỳ lặp khi tìm kiếm (điều kiện dừng) */
 
 /* Biến của bài toán cụ thể */
@@ -103,7 +103,7 @@ void initial()
         GlobalParams[i]=Foods[0][i];
 }
 
-/* Pha ong làm việc: mỗi ong tạo nghiệm mới từ nghiệm của mình */
+/* Pha ong thợthợ: mỗi ong tạo nghiệm mới từ nghiệm của mình */
 void SendEmployedBees()
 {
   int i,j;
