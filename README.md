@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a straightforward implementation of the Artificial Bee Colony (ABC) metaheuristic in C language. ABC is inspired by the foraging behavior of honey bees and is commonly used for solving continuous and discrete optimization problems. The implementation aims to be easy to compile and run, and suitable as a baseline for experiments and comparisons.
+This repository contains a straightforward implementation of the Artificial Bee Colony (ABC) metaheuristic in C++ language. ABC is inspired by the foraging behavior of honey bees and is commonly used for solving continuous and discrete optimization problems. The implementation aims to be easy to compile and run, and suitable as a baseline for experiments and comparisons.
 
 ## Features
 
