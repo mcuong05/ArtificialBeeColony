@@ -6,7 +6,7 @@ This repository contains a straightforward implementation of the Artificial Bee 
 
 ## Features
 
-- Core ABC algorithm implemented in `C`.
+- Core ABC algorithm implemented in `C++`.
 - Configurable algorithm parameters: population size, number of employed / onlooker bees, limit (scout threshold), number of iterations.
 - Example build and run instructions.
 
